@@ -79,10 +79,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q      &kp W         &lt 5 E       &kp R        &kp T                                                    &kp Y        &kp U    &lt 5 I    &kp O    &kp P
-&mt RCTRL A       &lt 1 S       &lt 3 D       &lt 2 F      &lt 4 G      &kp LS(LG(S))                &kp MINUS      &kp H        &lt 1 J  &lt 3 K    &lt 2 L  &mt RCTRL ENTER
-&mt LEFT_SHIFT Z  &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &mt LC(B) B  &kp LANG_ZENKAKUHANKAKU      &kp SEMICOLON  &kp N        &kp M    &kp COMMA  &kp DOT  &kp SLASH
-&kp BACKSPACE     &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG5  &lt 3 SPACE  &mkp MB1                     &kp BACKSPACE  &lt 4 SPACE                               &kp ESCAPE
+&mt ESCAPE Q      &kp W         &lt 5 E      &kp R           &kp T                                                 &kp Y        &kp U    &lt 5 I    &kp O    &kp P
+&mt RCTRL A       &lt 1 S       &lt 3 D      &lt 2 F         &lt 4 G      &kp LS(LG(S))             &kp MINUS      &kp H        &lt 1 J  &lt 3 K    &lt 2 L  &mt RCTRL ENTER
+&mt LEFT_SHIFT Z  &mt LC(X) X   &mt LC(C) C  &mt LC(V) V     &mt LC(B) B  &mt LANG1 LANGUAGE_2      &kp SEMICOLON  &kp N        &kp M    &kp COMMA  &kp DOT  &kp SLASH
+&kp BACKSPACE     &kp LEFT_WIN  &kp TAB      &lt 1 LEFT_ALT  &lt 3 SPACE  &mkp MB1                  &kp BACKSPACE  &lt 4 SPACE                               &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;

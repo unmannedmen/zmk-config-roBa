@@ -79,30 +79,30 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q              &kp W         &lt 5 E       &kp R        &kp T                                                 &kp Y        &kp U    &lt 5 I    &kp O    &kp P
-&mt RCTRL A               &lt 1 S       &lt 2 D       &lt 3 F      &lt 4 G      &kp K_MUTE                &kp MINUS      &kp H        &lt 1 J  &lt 2 K    &lt 3 L  &mt RCTRL ENTER
-&mt LC(Z) Z               &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &mt LC(B) B  &mt LANG1 LANGUAGE_2      &kp TAB        &kp N        &kp M    &kp COMMA  &kp DOT  &mt UNDERSCORE FSLH
-&mt LEFT_SHIFT BACKSPACE  &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1     &lt 3 SPACE  &mkp MB2                  &kp BACKSPACE  &lt 4 SPACE                               &mt RIGHT_SHIFT ESC
+&mt ESCAPE Q      &kp W         &lt 5 E       &kp R        &kp T                                                      &kp Y        &kp U    &lt 5 I    &kp O    &kp P
+&mt RCTRL A       &lt 1 S       &lt 2 D       &lt 3 F      &lt 4 G      &kp K_MUTE                     &kp MINUS      &kp H        &lt 1 J  &lt 2 K    &lt 3 L  &mt RCTRL ENTER
+&mt LEFT_SHIFT Z  &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &mt LC(B) B  &mkp MB1                       &kp BACKSPACE  &kp N        &kp M    &kp COMMA  &kp DOT  &mt RIGHT_SHIFT FSLH
+&kp BACKSPACE     &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB2     &lt 3 SPACE  &mt LANGUAGE_2 LANGUAGE_1      &kp BACKSPACE  &lt 2 SPACE                               &mt RIGHT_SHIFT ESC
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         FUNCTION {
             bindings = <
-&trans  &kp F7  &kp F8  &kp F9  &kp F11                            &kp LS(NUMBER_9)  &kp N7  &kp N8  &kp N9  &kp RS(UNDER)
-&trans  &kp F4  &kp F5  &kp F6  &kp F10  &trans         &kp MINUS  &kp LS(SEMI)      &kp N4  &kp N5  &kp N6  &kp N0
-&trans  &kp F1  &kp F2  &kp F3  &kp F12  &kp TILDE      &kp SLASH  &kp RS(COLON)     &kp N1  &kp N2  &kp N3  &kp DOT
-&trans  &trans  &trans  &trans  &trans   &trans         &trans     &trans                                    &kp EQUAL
+&trans  &kp F7  &kp F8  &kp F9  &kp F11                            &mt LS(NUMBER_9) LS(NUMBER_8)  &kp N7  &kp N8  &kp N9  &kp RS(UNDER)
+&trans  &kp F4  &kp F5  &kp F6  &kp F10  &trans         &kp MINUS  &kp LS(SEMI)                   &kp N4  &kp N5  &kp N6  &kp N0
+&trans  &kp F1  &kp F2  &kp F3  &kp F12  &kp TILDE      &kp SLASH  &kp RS(APOSTROPHE)             &kp N1  &kp N2  &kp N3  &kp DOT
+&trans  &trans  &trans  &trans  &trans   &trans         &trans     &trans                                                 &kp EQUAL
             >;
         };
 
         NUM {
             bindings = <
-&trans                      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                                                   &kp LS(NUMBER_6)   &kp AMPERSAND     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(UNDERSCORE)
-&trans                      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION    &kp LS(NUMBER_2)  &kp HASH          &kp DOLLAR        &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &trans                       &trans          &kp RIGHT_BRACKET  &kp BACKSLASH     &kp SINGLE_QUOTE  &kp SEMICOLON     &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans      &trans                       &trans          &trans                                                                   &kp PIPE
+&trans                      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                                    &kp LS(NUMBER_6)   &kp AMPERSAND     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(UNDERSCORE)
+&trans                      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans      &trans      &kp UNDERSCORE    &kp EXCLAMATION    &kp LS(NUMBER_2)  &kp HASH          &kp DOLLAR        &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp SEMI          &kp SINGLE_QUOTE  &kp LS(MINUS)
+&trans                      &trans           &trans           &trans           &trans      &trans      &trans            &trans                                                                   &kp RS(TILDE)
             >;
         };
 
@@ -110,8 +110,8 @@
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                           &kp ESCAPE     &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans      &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans      &trans         &kp F2          &kp F10         &kp F7           &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &kp DELETE  &trans                                                          &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp DELETE  &trans         &kp F2          &kp F10         &kp F7           &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans      &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -124,6 +124,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LS(LC(SEMI)) LS(LC(MINUS))>;
         };
 
         SCROLL {

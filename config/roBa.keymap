@@ -133,7 +133,7 @@
 &kp LC(N0)        &kp LC(W)            &kp LC(E)              &kp LC(R)                           &mt LC(LS(T)) LC(T)                        &trans  &trans    &trans    &trans    &trans
 &kp LS(LC(SEMI))  &kp LC(LS(TAB))      &kp LC(TAB)            &mkp MB1                            &mkp MB2             &mkp MB3      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
 &kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &mt LA(RIGHT_ARROW) LA(LEFT_ARROW)  &kp LC(N)            &aDE          &trans  &trans  &trans    &trans    &trans    &trans
-&kp ENTER         &trans               &trans                 &trans                              &trans               &trans        &trans  &trans                                &trans
+&kp ENTER         &kp LA(D)            &trans                 &trans                              &trans               &trans        &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;

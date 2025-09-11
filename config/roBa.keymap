@@ -62,13 +62,16 @@
             label = "TO_LAYER_0";
         };
 
-        aDE: aDE {
+        alt_D_Enter: alt_D_Enter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(D) &kp ENTER>;
-            label = "ADE";
-            wait-ms = <0>;
-            tap-ms = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT &kp D &kp ENTER>,
+                <&macro_release>,
+                <&kp LEFT_ALT &kp D &kp ENTER>;
+
+            label = "ALT_D_ENTER";
         };
     };
 
@@ -130,10 +133,10 @@
 
         MOUSE {
             bindings = <
-&kp LC(N0)        &kp LC(W)            &kp LC(E)              &kp LC(R)                           &mt LC(LS(T)) LC(T)                        &trans  &trans    &trans    &trans    &trans
-&kp LS(LC(SEMI))  &kp LC(LS(TAB))      &kp LC(TAB)            &mkp MB1                            &mkp MB2             &mkp MB3      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &mt LA(RIGHT_ARROW) LA(LEFT_ARROW)  &kp LC(N)            &aDE          &trans  &trans  &trans    &trans    &trans    &trans
-&kp ENTER         &kp LA(D)            &trans                 &trans                              &trans               &trans        &trans  &trans                                &trans
+&kp LC(N0)        &kp LC(W)            &kp LC(E)              &kp LC(R)                           &mt LC(LS(T)) LC(T)                            &trans  &trans    &trans    &trans    &trans
+&kp LS(LC(SEMI))  &kp LC(LS(TAB))      &kp LC(TAB)            &mkp MB1                            &mkp MB2             &mkp MB3          &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &mt LA(RIGHT_ARROW) LA(LEFT_ARROW)  &kp LC(N)            &alt_D_Enter      &trans  &trans  &trans    &trans    &trans    &trans
+&kp ENTER         &kp LA(D)            &trans                 &trans                              &trans               &trans            &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;

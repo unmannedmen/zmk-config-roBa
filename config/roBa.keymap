@@ -67,6 +67,8 @@
             #binding-cells = <0>;
             bindings = <&kp LA(D) &kp ENTER>;
             label = "ADE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
     };
 

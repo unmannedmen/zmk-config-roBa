@@ -113,19 +113,19 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                            &kp LS(UNDERSCORE)              &kp NUMBER_7  &mt LS(NUMBER_8) NUMBER_8   &mt LS(NUMBER_9) NUMBER_9  &kp NUMBER_0
-&trans  &trans  &trans  &trans  &trans  &kp LG(Z)      &kp MINUS  &kp LS(SEMI)                    &kp NUMBER_4  &kp NUMBER_5                &kp NUMBER_6               &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &kp SLASH  &mt LS(EQUAL) LS(SINGLE_QUOTE)  &kp NUMBER_1  &mt RIGHT_BRACKET NUMBER_2  &mt BACKSLASH NUMBER_3     &kp PERIOD
-&to 0   &trans  &trans  &trans  &trans  &trans         &trans     &trans                                                                                               &trans
+&trans  &trans          &kp LEFT_ARROW  &trans           &trans                            &kp LS(UNDERSCORE)              &kp NUMBER_7  &mt LS(NUMBER_8) NUMBER_8   &mt LS(NUMBER_9) NUMBER_9  &kp NUMBER_0
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp LG(Z)      &kp MINUS  &kp LS(SEMI)                    &kp NUMBER_4  &kp NUMBER_5                &kp NUMBER_6               &trans
+&trans  &trans          &trans          &trans           &trans  &trans         &kp SLASH  &mt LS(EQUAL) LS(SINGLE_QUOTE)  &kp NUMBER_1  &mt RIGHT_BRACKET NUMBER_2  &mt BACKSLASH NUMBER_3     &kp PERIOD
+&to 0   &trans          &trans          &trans           &trans  &trans         &trans     &trans                                                                                               &trans
             >;
         };
 
         ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                          &trans    &kp PAGE_UP      &kp UP_ARROW    &kp PAGE_DOWN    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans      &kp HOME  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&trans  &trans  &trans  &trans  &trans  &trans      &trans      &kp END   &kp LC(LS(TAB))  &kp TAB         &kp LC(TAB)      &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp DELETE  &trans                                                      &trans
+&trans  &trans  &trans  &trans  &trans                      &trans      &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp HOME    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp TAB     &kp F2          &kp F7          &kp F10          &kp TAB
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp DELETE                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

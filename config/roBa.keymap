@@ -92,7 +92,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R            &mt TAB T                                                         &kp Y               &kp U  &kp I            &kp O                 &kp P
-&mt LCTRL A       &lt 1 S       &lt 3 D       &lt 2 F          &lt 5 G      &kp LG(C_MUTE)                 &to 2                 &kp H               &kp J  &kp K            &lt 4 L               &mt RCTRL ENTER
+&mt LCTRL A       &lt 1 S       &lt 3 D       &lt 2 F          &lt 5 G      &kp LG(C_MUTE)                 &to 2                 &kp H               &kp J  &lt 4 K          &lt 5 L               &mt RCTRL ENTER
 &mt LEFT_SHIFT Z  &mt LC(X) X   &mt LC(C) C   &kp V            &kp B        &mt LANGUAGE_1 LANGUAGE_2      &kp MINUS             &kp N               &kp M  &mt MINUS COMMA  &mt LS(SLASH) PERIOD  &mt RIGHT_SHIFT FSLH
 &lt 3 BACKSPACE   &kp LEFT_GUI  &kp LEFT_ALT  &mt LS(TAB) TAB  &lt 4 SPACE  &mkp MB1                       &mt DELETE BACKSPACE  &mt LEFT_GUI SPACE                                                &kp ESCAPE
             >;
@@ -133,10 +133,10 @@
 
         MOUSE {
             bindings = <
-&kp RS(RC(SEMI))  &kp LC(W)            &kp LC(E)              &kp LC(R)  &mt LC(LS(T)) LC(T)                      &trans              &kp LC(W)  &kp LC(E)            &kp LC(R)              &mt LC(LS(T)) LC(T)
-&kp LC(LS(TAB))   &kp LC(TAB)          &mkp MB2               &mkp MB1   &kp LA(LEFT_ARROW)   &trans      &trans  &kp LA(LEFT_ARROW)  &mkp MB1   &mkp MB2             &kp LC(LS(TAB))        &kp LC(TAB)
-&kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(N)  &alt_D_Enter         &trans      &trans  &trans              &kp LC(N)  &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &alt_D_Enter
-&kp LC(N0)        &trans               &trans                 &trans     &trans               &trans      &trans  &trans                                                                     &trans
+&kp RS(RC(SEMI))  &kp LC(W)            &kp LC(E)              &kp LC(R)  &mt LC(LS(T)) LC(T)                      &trans              &trans     &trans               &trans                 &mt LC(LS(T)) LC(T)
+&kp LC(LS(TAB))   &kp LC(TAB)          &mkp MB2               &mkp MB1   &kp LA(LEFT_ARROW)   &trans      &trans  &kp LA(LEFT_ARROW)  &mkp MB1   &trans               &mkp MB2               &kp LC(TAB)
+&kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(N)  &alt_D_Enter         &trans      &trans  &trans              &kp LC(N)  &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(LS(TAB))
+&kp LC(N0)        &trans               &trans                 &trans     &trans               &trans      &trans  &trans                                                                     &alt_D_Enter
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;

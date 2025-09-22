@@ -133,10 +133,10 @@
 
         MOUSE {
             bindings = <
-&kp RS(RC(SEMI))  &kp LC(W)            &kp LC(E)              &kp LC(R)  &mt LC(LS(T)) LC(T)                      &trans              &trans     &trans               &trans                 &mt LC(LS(T)) LC(T)
-&kp LC(LS(TAB))   &kp LC(TAB)          &mkp MB2               &mkp MB1   &kp LA(LEFT_ARROW)   &trans      &trans  &kp LA(LEFT_ARROW)  &mkp MB1   &trans               &mkp MB2               &kp LC(TAB)
-&kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(N)  &alt_D_Enter         &trans      &trans  &trans              &kp LC(N)  &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(LS(TAB))
-&kp LC(N0)        &trans               &trans                 &trans     &trans               &trans      &trans  &trans                                                                     &alt_D_Enter
+&kp RS(RC(SEMI))  &kp LC(W)            &kp LC(E)              &kp LC(R)  &mt LC(LS(T)) LC(T)                      &trans              &trans    &trans               &trans                 &trans
+&kp LC(LS(TAB))   &kp LC(TAB)          &mkp MB2               &mkp MB1   &kp LA(LEFT_ARROW)   &trans      &trans  &kp LA(LEFT_ARROW)  &mkp MB1  &trans               &trans                 &kp LC(TAB)
+&kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(N)  &alt_D_Enter         &trans      &trans  &trans              &mkp MB2  &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(LS(TAB))
+&kp LC(N0)        &trans               &trans                 &trans     &trans               &trans      &trans  &trans                                                                    &alt_D_Enter
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;

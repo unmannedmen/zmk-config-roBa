@@ -96,10 +96,10 @@
 
         default_layer {
             bindings = <
-&kp Q                      &kp W         &kp E         &kp R    &kp T                                                      &kp Y      &kp U  &kp I            &kp O                 &kp P
-&mt LCTRL A                &lt 1 S       &lt 3 D       &lt 2 F  &lt 5 G      &kp LG(C_MUTE)                 &to 2          &kp H      &kp J  &lt 4 K          &lt 5 L               &mt RCTRL ENTER
-&mt LEFT_SHIFT Z           &kp X         &kp C         &kp V    &kp B        &mt LANGUAGE_1 LANGUAGE_2      &kp MINUS      &kp N      &kp M  &mt MINUS COMMA  &mt LS(SLASH) PERIOD  &mt RIGHT_SHIFT FSLH
-&mt LANGUAGE_1 LANGUAGE_2  &kp LEFT_GUI  &kp LEFT_ALT  &kp TAB  &lt 4 SPACE  &mkp MB1                       &kp BACKSPACE  &kp SPACE                                                &mt LEFT_GUI ESCAPE
+&mt NUMBER_1 Q             &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T                                                   &mt NUMBER_6 Y  &mt NUMBER_7 U  &mt N8 I         &mt NUMBER_9 O        &mt NUMBER_0 P
+&mt LCTRL A                &lt 1 S         &lt 3 D         &lt 2 F         &lt 5 G      &kp LG(C_MUTE)                 &to 2          &kp H           &kp J           &lt 4 K          &lt 5 L               &mt RCTRL ENTER
+&mt LEFT_SHIFT Z           &kp X           &kp C           &kp V           &kp B        &mt LANGUAGE_1 LANGUAGE_2      &kp MINUS      &kp N           &kp M           &mt MINUS COMMA  &mt LS(SLASH) PERIOD  &mt RIGHT_SHIFT FSLH
+&mt LANGUAGE_1 LANGUAGE_2  &kp LEFT_GUI    &kp LEFT_ALT    &lt 4 TAB       &lt 3 SPACE  &mkp MB1                       &kp BACKSPACE  &lt 2 SPACE                                                            &mt LEFT_GUI ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;

@@ -91,10 +91,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                                        &kp Y      &kp U  &kp I            &kp NUMBER_9          &kp NUMBER_0
-&mt LCTRL A       &lt 2 S       &lt 3 D       &lt 1 F    &lt 5 G      &kp LG(C_MUTE)       &to 2                      &kp H      &kp J  &lt 4 K          &lt 5 L               &mt RCTRL ENTER
-&mt LEFT_SHIFT Z  &mt LC(X) X   &mt LC(C) C   &kp V      &kp B        &mt LC(Y) LC(Z)      &kp BACKSPACE              &kp N      &kp M  &mt MINUS COMMA  &mt LS(SLASH) PERIOD  &mt RIGHT_SHIFT FSLH
-&kp BACKSPACE     &kp LEFT_GUI  &kp LEFT_ALT  &lt 4 TAB  &lt 3 SPACE  &mkp MB1             &mt LANGUAGE_1 LANGUAGE_2  &kp SPACE                                                &kp ESCAPE
+&kp Q             &kp W         &kp E         &kp R             &kp T                                                  &kp Y      &kp U  &kp I            &kp NUMBER_9          &kp NUMBER_0
+&mt LCTRL A       &lt 2 S       &lt 3 D       &lt 1 F           &lt 5 G      &kp LG(C_MUTE)      &to 2                 &kp H      &kp J  &lt 4 K          &lt 5 L               &mt RCTRL ENTER
+&mt LEFT_SHIFT Z  &mt LC(X) X   &mt LC(C) C   &kp V             &kp B        &kp TAB             &kp BACKSPACE         &kp N      &kp M  &mt MINUS COMMA  &mt LS(SLASH) PERIOD  &mt RIGHT_SHIFT FSLH
+&kp BACKSPACE     &kp LEFT_GUI  &kp LEFT_ALT  &lt 4 LANGUAGE_2  &lt 3 SPACE  &mkp MB1            &mt LANGUAGE_1 SPACE  &kp SPACE                                                &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -113,10 +113,10 @@
 
         NUM {
             bindings = <
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans                         &mt LS(EQUAL) CARET  &kp NUMBER_7  &mt LS(NUMBER_8) NUMBER_8  &mt LS(NUMBER_9) NUMBER_9  &kp LS(MINUS)
-&trans          &trans          &trans        &trans           &trans  &kp LG(Z)      &to 0   &kp BACKSPACE        &kp NUMBER_4  &kp NUMBER_5               &kp NUMBER_6               &kp NUMBER_0
-&trans          &trans          &trans        &trans           &trans  &trans         &trans  &kp INTERNATIONAL_3  &kp NUMBER_1  &mt MINUS NUMBER_2         &mt LS(SEMI) NUMBER_3      &kp PERIOD
-&trans          &trans          &trans        &trans           &trans  &trans         &trans  &trans                                                                                   &trans
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans                             &mt LS(EQUAL) CARET  &kp NUMBER_7  &mt LS(NUMBER_8) NUMBER_8  &mt LS(NUMBER_9) NUMBER_9  &kp LS(MINUS)
+&trans          &trans          &trans        &trans           &trans  &kp LG(Z)      &to 0       &kp BACKSPACE        &kp NUMBER_4  &kp NUMBER_5               &kp NUMBER_6               &kp NUMBER_0
+&trans          &trans          &trans        &trans           &trans  &trans         &trans      &kp INTERNATIONAL_3  &kp NUMBER_1  &mt MINUS NUMBER_2         &mt LS(SEMI) NUMBER_3      &kp PERIOD
+&trans          &trans          &trans        &trans           &trans  &trans         &kp DELETE  &trans                                                                                   &trans
             >;
         };
 
@@ -133,10 +133,10 @@
 
         MOUSE {
             bindings = <
-&kp RS(RC(SEMI))  &kp LC(W)            &kp LC(E)              &kp LC(R)  &mt LC(LS(T)) LC(T)                      &trans              &trans    &trans               &trans                 &trans
-&kp LC(LS(TAB))   &kp LC(TAB)          &mkp MB2               &mkp MB1   &kp LA(LEFT_ARROW)   &trans      &trans  &kp LA(LEFT_ARROW)  &mkp MB1  &trans               &trans                 &kp LC(TAB)
-&kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(N)  &alt_D_Enter         &trans      &trans  &trans              &mkp MB2  &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(LS(TAB))
-&kp LC(N0)        &trans               &trans                 &trans     &trans               &trans      &trans  &trans                                                                    &alt_D_Enter
+&kp RS(RC(SEMI))  &kp LC(W)            &kp LC(E)              &kp LC(R)  &mt LC(LS(T)) LC(T)                          &trans              &trans    &trans               &trans                 &trans
+&kp LC(LS(TAB))   &kp LC(TAB)          &mkp MB2               &mkp MB1   &kp LA(LEFT_ARROW)   &trans      &trans      &kp LA(LEFT_ARROW)  &mkp MB1  &trans               &trans                 &kp LC(TAB)
+&kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(N)  &alt_D_Enter         &trans      &trans      &trans              &mkp MB2  &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(LS(TAB))
+&kp LC(N0)        &trans               &trans                 &trans     &trans               &trans      &kp DELETE  &trans                                                                    &alt_D_Enter
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
@@ -144,10 +144,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                          &trans         &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &kp LC(N0)      &trans  &kp BACKSPACE  &kp F4  &kp F5  &kp F6  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans         &kp F1  &kp F2  &kp F3  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans                                 &kp F12
+&trans  &trans  &trans  &trans  &trans                              &trans         &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans  &trans  &kp LC(N0)      &trans      &kp BACKSPACE  &kp F4  &kp F5  &kp F6  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans      &trans         &kp F1  &kp F2  &kp F3  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans          &kp DELETE  &trans                                 &kp F12
             >;
         };
     };

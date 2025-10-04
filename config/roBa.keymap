@@ -98,7 +98,7 @@
 &trans       &trans            &trans            &trans             &trans                                 &trans         &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
 &kp TAB      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans      &trans      &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
 &kp LS(TAB)  &trans            &trans            &trans             &trans         &trans      &trans      &trans         &kp F2          &kp F7          &kp F10          &kp PAGE_DOWN
-&trans       &trans            &trans            &trans             &trans         &trans      &kp DELETE  &trans                                                          &trans
+&trans       &trans            &trans            &trans             &trans         &trans      &kp DELETE  &kp BACKSPACE                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -109,7 +109,7 @@
 &kp RS(RC(SEMI))  &kp LC(W)            &kp LC(E)              &kp LC(R)  &mt LC(LS(T)) LC(T)                          &trans              &trans    &trans               &trans                 &trans
 &kp LC(LS(TAB))   &kp LC(TAB)          &mkp MB2               &mkp MB1   &kp LA(LEFT_ARROW)   &trans      &trans      &kp LA(LEFT_ARROW)  &mkp MB1  &trans               &trans                 &kp LC(TAB)
 &kp LC(MINUS)     &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(N)  &alt_D_Enter         &trans      &trans      &trans              &mkp MB2  &kp LC(LS(PAGE_UP))  &kp LC(LS(PAGE_DOWN))  &kp LC(LS(TAB))
-&kp LC(N0)        &trans               &trans                 &trans     &trans               &trans      &kp DELETE  &trans                                                                    &alt_D_Enter
+&kp LC(N0)        &trans               &trans                 &trans     &trans               &trans      &kp DELETE  &kp BACKSPACE                                                             &alt_D_Enter
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
@@ -120,7 +120,7 @@
 &trans  &trans  &trans  &trans  &trans                              &trans         &kp F7  &kp F8  &kp F9  &kp F10
 &trans  &trans  &trans  &trans  &trans  &kp LC(N0)      &trans      &kp BACKSPACE  &kp F4  &kp F5  &kp F6  &kp F10
 &trans  &trans  &trans  &trans  &trans  &trans          &trans      &trans         &kp F1  &kp F2  &kp F3  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans          &kp DELETE  &trans                                 &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans          &kp DELETE  &kp BACKSPACE                          &kp F12
             >;
         };
     };

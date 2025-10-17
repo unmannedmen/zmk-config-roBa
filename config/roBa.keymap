@@ -95,10 +95,10 @@
 
         ARROW {
             bindings = <
-&trans  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp HOME  &kp END                                      &trans         &kp LC(LS(PAGE_UP))  &kp UP_ARROW    &kp LC(LS(PAGE_DOWN))  &trans
-&trans  &kp LC(LS(TAB))    &kp LC(TAB)       &mkp MB1  &kp LA(LEFT_ARROW)   &trans      &trans      &kp BACKSPACE  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW        &trans
-&trans  &kp RIGHT_BRACKET  &kp BACKSLASH     &mkp MB2  &kp LA(RIGHT_ARROW)  &trans      &trans      &trans         &kp F2               &kp F7          &kp F10                &trans
-&trans  &trans             &trans            &trans    &trans               &trans      &kp DELETE  &kp BACKSPACE                                                              &trans
+&kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                                  &kp NUMBER_6   &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0
+&trans        &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp MINUS          &kp LS(MINUS)         &trans      &trans      &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOT
+&trans        &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(SEMICOLON)  &kp LS(SINGLE_QUOTE)  &trans      &trans      &trans         &kp F2          &kp F7          &kp F10          &trans
+&trans        &trans             &trans            &trans             &trans                &trans      &kp DELETE  &kp BACKSPACE                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

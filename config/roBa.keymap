@@ -117,10 +117,10 @@
 
         SCROLL {
             bindings = <
-&mt NUMBER_1 TAB  &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5                              &kp NUMBER_6      &mt NUMBER_7 HOME  &mt NUMBER_8 UP_ARROW  &mt NUMBER_9 END  &mt NUMBER_0 PERIOD
-&trans            &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp MINUS      &kp LS(SEMI)  &kp LC(N0)      &trans      &kp BACKSPACE     &kp LEFT_ARROW     &kp DOWN_ARROW         &kp RIGHT_ARROW   &trans
-&trans            &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(MINUS)  &kp LS(SQT)   &trans          &trans      &kp LEFT_BRACKET  &kp F2             &kp F7                 &kp F10           &trans
-&trans            &trans             &trans            &trans         &trans        &trans          &kp DELETE  &kp BACKSPACE                                                                 &trans
+&kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5                              &kp NUMBER_6      &mt NUMBER_7 HOME  &mt NUMBER_8 UP_ARROW  &mt NUMBER_9 END  &mt NUMBER_0 PERIOD
+&trans        &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp MINUS      &kp LS(SEMI)  &kp LC(N0)      &trans      &kp BACKSPACE     &kp LEFT_ARROW     &kp DOWN_ARROW         &kp RIGHT_ARROW   &trans
+&trans        &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(MINUS)  &kp LS(SQT)   &kp TAB         &trans      &kp LEFT_BRACKET  &kp F2             &kp F7                 &kp F10           &trans
+&trans        &trans             &trans            &trans         &trans        &trans          &kp DELETE  &kp BACKSPACE                                                                 &trans
             >;
         };
     };

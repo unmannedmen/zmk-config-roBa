@@ -25,7 +25,24 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <19 20>;
+        };
+
+        shitab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <18 19>;
+        };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <12 13>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {

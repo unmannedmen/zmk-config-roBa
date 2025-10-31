@@ -40,12 +40,12 @@
 
         mb1 {
             bindings = <&mkp MB1>;
-            key-positions = <12 13>;
+            key-positions = <12 11>;
         };
 
         mb2 {
             bindings = <&mkp MB2>;
-            key-positions = <2 3>;
+            key-positions = <2 1>;
         };
 
         esc {
@@ -55,7 +55,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <12 11>;
+            key-positions = <12 13>;
         };
 
         dot {
@@ -65,12 +65,12 @@
 
         home {
             bindings = <&kp HOME>;
-            key-positions = <30 31>;
+            key-positions = <6 7>;
         };
 
         end {
             bindings = <&kp END>;
-            key-positions = <31 32>;
+            key-positions = <7 8>;
         };
 
         ctrlX {
@@ -90,7 +90,7 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <8 41>;
+            key-positions = <30 31>;
         };
 
         altEnter {
@@ -111,6 +111,16 @@
         lang2 {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <13 38>;
+        };
+
+        undBar {
+            bindings = <&kp LS(INTERNATIONAL_1)>;
+            key-positions = <31 32>;
+        };
+
+        q {
+            bindings = <&kp LS(FSLH)>;
+            key-positions = <30 32>;
         };
     };
 
@@ -204,10 +214,10 @@
 
         SCROLL {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5                              &kp NUMBER_6      &kp NUMBER_7    &mt NUMBER_8 UP_ARROW  &kp NUMBER_9     &kp NUMBER_0
-&trans        &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp MINUS      &kp LS(SEMI)  &kp LC(N0)      &trans      &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW         &kp RIGHT_ARROW  &trans
-&trans        &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(MINUS)  &kp LS(SQT)   &kp END         &kp HOME    &kp LEFT_BRACKET  &kp F2          &kp F7                 &kp F10          &trans
-&trans        &trans             &trans            &trans         &trans        &trans          &kp DELETE  &kp BACKSPACE                                                             &trans
+&kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5                              &kp NUMBER_6      &kp NUMBER_7    &mt NUMBER_8 UP_ARROW  &kp NUMBER_9     &kp NUMBER_0
+&trans        &kp LS(MINUS)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp LS(SEMI)  &kp LC(N0)      &trans      &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW         &kp RIGHT_ARROW  &trans
+&trans        &kp MINUS      &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(SQT)   &kp END         &kp HOME    &kp LEFT_BRACKET  &kp F2          &kp F7                 &kp F10          &trans
+&trans        &trans         &trans             &trans            &trans        &trans          &kp DELETE  &kp BACKSPACE                                                             &trans
             >;
         };
     };

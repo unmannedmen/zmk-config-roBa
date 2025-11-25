@@ -35,7 +35,7 @@
 
         bs {
             bindings = <&kp BACKSPACE>;
-            key-positions = <18 19>;
+            key-positions = <19 18>;
         };
 
         mb1 {
@@ -56,11 +56,6 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <12 11>;
-        };
-
-        dot {
-            bindings = <&kp PERIOD>;
-            key-positions = <41 7>;
         };
 
         home {
@@ -116,11 +111,6 @@
         undBar {
             bindings = <&kp LS(INTERNATIONAL_1)>;
             key-positions = <31 32>;
-        };
-
-        q {
-            bindings = <&kp LS(FSLH)>;
-            key-positions = <30 32>;
         };
     };
 

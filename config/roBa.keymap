@@ -110,7 +110,7 @@
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <41 19>;
+            key-positions = <41 30>;
         };
 
         undBar {

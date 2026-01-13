@@ -175,7 +175,7 @@
             bindings = <
 &trans  &trans          &kp UP_ARROW    &trans           &kp LS(MINUS)                      &kp INTERNATIONAL_3  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans      &to 0   &kp BACKSPACE        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
-&trans  &trans          &trans          &trans           &trans         &trans      &trans  &trans               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &trans          &trans          &trans           &trans         &trans      &trans  &kp DOT              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
 &trans  &trans          &trans          &trans           &trans         &trans      &trans  &trans                                                         &trans
             >;
         };

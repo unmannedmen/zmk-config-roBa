@@ -40,7 +40,7 @@
 
         plus {
             bindings = <&kp LS(SEMI)>;
-            key-positions = <6 7>;
+            key-positions = <19 20>;
         };
 
         asta {
@@ -53,11 +53,6 @@
             key-positions = <18 19>;
         };
 
-        shiftSpace {
-            bindings = <&kp LS(SPACE)>;
-            key-positions = <41 38>;
-        };
-
         lang1 {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <18 41>;
@@ -65,7 +60,7 @@
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <41 30>;
+            key-positions = <40 39>;
         };
 
         undBar {
@@ -75,12 +70,12 @@
 
         q {
             bindings = <&kp LS(FSLH)>;
-            key-positions = <19 20>;
+            key-positions = <31 32>;
         };
 
         eq {
-            bindings = <&kp LS(SEMI)>;
-            key-positions = <6 7 8>;
+            bindings = <&kp LS(MINUS)>;
+            key-positions = <6 7>;
         };
 
         shifttab {
@@ -108,9 +103,9 @@
             key-positions = <18 19 20>;
         };
 
-        hennkan {
-            bindings = <&kp INTERNATIONAL_4>;
-            key-positions = <39 40>;
+        lang12 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <38 41>;
         };
     };
 
@@ -162,10 +157,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &kp N7  &kp N8  &kp N9    &kp N0                             &kp F6            &kp HOME        &kp UP_ARROW    &kp LS(END)      &kp DELETE
-&trans  &kp N4  &kp N5  &kp N6    &kp DOT  &trans      &none         &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
-&trans  &kp N1  &kp N2  &kp N3    &kp F12  &trans      &trans        &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
-&trans  &trans  &trans  &kp LGUI  &trans   &trans      &kp LEFT_GUI  &kp LG(Z)                                                          &trans
+&trans  &kp N7  &kp N8  &kp N9    &kp N0                               &kp F6            &kp HOME        &kp UP_ARROW    &kp LS(END)      &kp DELETE
+&trans  &kp N4  &kp N5  &kp N6    &kp DOT    &trans      &none         &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
+&trans  &kp N1  &kp N2  &kp N3    &kp K_APP  &trans      &trans        &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
+&trans  &trans  &trans  &kp LGUI  &trans     &trans      &kp LEFT_GUI  &kp LG(Z)                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;

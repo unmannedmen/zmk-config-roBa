@@ -30,12 +30,12 @@
 
         mb1 {
             bindings = <&mkp MB1>;
-            key-positions = <12 13>;
+            key-positions = <24 25>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <3 2>;
+            key-positions = <12 13>;
         };
 
         plus {
@@ -60,7 +60,7 @@
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <39 40>;
+            key-positions = <40 19>;
         };
 
         undBar {
@@ -80,7 +80,7 @@
 
         shifttab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <1 2>;
+            key-positions = <11 12>;
         };
 
         kakko {
@@ -103,14 +103,14 @@
             key-positions = <18 19 20>;
         };
 
-        lang12 {
-            bindings = <&kp LANGUAGE_1>;
+        henkan {
+            bindings = <&kp INTERNATIONAL_4>;
             key-positions = <38 41>;
         };
 
         mb2 {
             bindings = <&mkp MB2>;
-            key-positions = <12 11>;
+            key-positions = <23 24>;
         };
     };
 
@@ -151,10 +151,10 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp W        &kp E         &kp R                  &kp T                                                               &kp Y      &kp U  &kp I      &kp O       &kp P
-&mt LCTRL A  &mt LCTRL S  &lt 3 D       &lt 2 F                &kp G                      &kp LG(C_MUTE)      &to 5                &kp H      &kp J  &lt 4 K    &lt 5 L     &mt RCTRL ENTER
-&mt LSHFT Z  &kp X        &kp C         &kp V                  &kp B                      &mkp MB1            &kp TAB              &kp N      &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT FSLH
-&kp ESCAPE   &kp LC(Z)    &kp LEFT_GUI  &mt LALT INT_MUHENKAN  &mt LSHFT INTERNATIONAL_4  &lt 1 SPACE         &mt LCTRL LS(SPACE)  &lt 2 TAB                                &kp LS(BACKSPACE)
+&kp Q        &kp W        &kp E         &kp R                  &kp T                                                          &kp Y             &kp U  &kp I      &kp O       &kp P
+&mt LCTRL A  &mt LCTRL S  &lt 3 D       &lt 2 F                &kp G                 &kp LG(C_MUTE)      &to 5                &kp H             &kp J  &lt 4 K    &lt 5 L     &mt RCTRL ENTER
+&mt LSHFT Z  &kp X        &kp C         &kp V                  &kp B                 &mkp MB1            &kp TAB              &kp N             &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT FSLH
+&kp ESCAPE   &kp LC(Z)    &kp LEFT_GUI  &mt LALT INT_MUHENKAN  &mt LSHFT LANGUAGE_2  &lt 1 SPACE         &mt LCTRL LS(SPACE)  &lt 2 LANGUAGE_1                                &kp LS(BACKSPACE)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;

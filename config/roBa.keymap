@@ -162,10 +162,10 @@
 
         FUNCTION {
             bindings = <
-&kp TAB  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                         &kp F6            &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
-&trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT       &none          &none   &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
-&trans   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp K_APP        &kp LC(Z)      &trans  &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
-&trans   &trans           &trans           &kp LGUI         &trans           &trans         &trans  &kp LEFT_GUI                                                       &trans
+&kp LA(PSCRN)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                             &kp F6            &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
+&kp PSCRN      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT       &none              &none   &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
+&trans         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp K_APP        &kp LS(LG(S))      &trans  &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
+&trans         &trans           &trans           &kp LGUI         &trans           &trans             &trans  &kp LEFT_GUI                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -173,10 +173,10 @@
 
         NUM {
             bindings = <
-&trans  &none      &kp UP_ARROW    &none            &kp N0                                     &kp SEMI          &kp SQT     &kp AMPS    &kp LS(N2)           &kp HASH
-&none   &none      &kp LEFT_ARROW  &kp RIGHT_ARROW  &msc SCRL_LEFT   &trans            &to 0   &kp BACKSPACE     &kp EXCL    &kp LS(N6)  &kp LS(FSLH)         &kp TAB
-&trans  &kp LCTRL  &kp DOWN_ARROW  &kp LSHFT        &msc SCRL_RIGHT  &trans            &trans  &kp LEFT_BRACKET  &kp LS(N4)  &kp PRCNT   &kp INTERNATIONAL_3  &trans
-&trans  &trans     &trans          &kp N0           &msc SCRL_DOWN   &msc SCRL_UP      &trans  &trans                                                         &trans
+&trans  &none      &kp UP_ARROW    &none            &kp N0                                      &kp SEMI          &kp SQT     &kp AMPS    &kp LS(N2)           &kp HASH
+&none   &none      &kp LEFT_ARROW  &kp RIGHT_ARROW  &msc SCRL_LEFT   &trans             &to 0   &kp BACKSPACE     &kp EXCL    &kp LS(N6)  &kp LS(FSLH)         &kp TAB
+&trans  &kp LCTRL  &kp DOWN_ARROW  &kp LSHFT        &msc SCRL_RIGHT  &kp LA(PSCRN)      &trans  &kp LEFT_BRACKET  &kp LS(N4)  &kp PRCNT   &kp INTERNATIONAL_3  &trans
+&trans  &trans     &trans          &kp N0           &msc SCRL_DOWN   &msc SCRL_UP       &trans  &trans                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;

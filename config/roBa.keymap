@@ -162,13 +162,13 @@
 
         FUNCTION {
             bindings = <
-&kp TAB  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                          &kp F6            &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
-&trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT       &kp LC(N0)      &none   &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
-&trans   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp K_APP        &kp LC(Z)       &trans  &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
-&trans   &trans           &trans           &kp LGUI         &trans           &trans          &trans  &kp LEFT_GUI                                                       &trans
+&kp TAB  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                         &kp F6            &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
+&trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT       &none          &none   &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
+&trans   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp K_APP        &kp LC(Z)      &trans  &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
+&trans   &trans           &trans           &kp LGUI         &trans           &trans         &trans  &kp LEFT_GUI                                                       &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(K_SCROLL_UP) LC(K_SCROLL_DOWN)>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         NUM {

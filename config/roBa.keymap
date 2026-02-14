@@ -152,7 +152,7 @@
         default_layer {
             bindings = <
 &kp Q       &kp W        &kp E         &kp R        &kp T                                                                    &kp Y             &kp U  &kp I      &kp O       &kp P
-&kp A       &lt 2 S      &lt 3 D       &lt 3 F      &lt 5 G                       &kp LG(C_PP)          &to 5                &kp H             &kp J  &lt 4 K    &lt 5 L     &mt RCTRL ENTER
+&kp A       &lt 2 S      &lt 3 D       &lt 4 F      &lt 5 G                       &kp LG(C_PP)          &to 5                &kp H             &kp J  &lt 4 K    &lt 5 L     &mt RCTRL ENTER
 &kp Z       &mt LCTRL X  &kp C         &mt LSHFT V  &kp B                         &lt 5 LANGUAGE_1      &kp TAB              &kp N             &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT FSLH
 &kp ESCAPE  &kp LC(Z)    &kp LEFT_GUI  &mkp MB1     &mt LEFT_ALT INTERNATIONAL_4  &lt 1 SPACE           &mt LCTRL LS(SPACE)  &lt 2 LANGUAGE_2                                &kp LS(BACKSPACE)
             >;
@@ -162,13 +162,13 @@
 
         FUNCTION {
             bindings = <
-&kp TAB  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                         &kp F6            &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
-&trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT       &trans         &none   &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
-&trans   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp K_APP        &kp LC(Z)      &trans  &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
-&trans   &trans           &trans           &kp LGUI         &trans           &trans         &trans  &kp LEFT_GUI                                                       &trans
+&kp TAB  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                          &kp F6            &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
+&trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT       &kp LC(N0)      &none   &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB
+&trans   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp K_APP        &kp LC(Z)       &trans  &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
+&trans   &trans           &trans           &kp LGUI         &trans           &trans          &trans  &kp LEFT_GUI                                                       &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
+            sensor-bindings = <&inc_dec_kp LC(K_SCROLL_UP) LC(K_SCROLL_DOWN)>;
         };
 
         NUM {
@@ -178,6 +178,8 @@
 &trans     &none   &kp DOWN_ARROW  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT      &msc SCRL_RIGHT  &kp LEFT_BRACKET  &kp LS(N4)  &kp PRCNT   &kp INTERNATIONAL_3  &trans
 &trans     &trans  &trans          &kp N0           &msc SCRL_DOWN  &msc SCRL_UP         &trans           &trans                                                         &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         ARROW {

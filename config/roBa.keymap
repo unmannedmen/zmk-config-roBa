@@ -179,7 +179,7 @@
         NUM {
             bindings = <
 &trans  &none      &kp UP_ARROW    &none            &none                                        &kp SEMI          &kp SQT     &kp AMPS    &kp LS(N2)           &kp HASH
-&none   &none      &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp PG_UP      &trans                &to 0   &kp BACKSPACE     &kp EXCL    &kp LS(N6)  &kp LS(FSLH)         &trans
+&none   &none      &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp PG_UP      &trans                &none   &kp BACKSPACE     &kp EXCL    &kp LS(N6)  &kp LS(FSLH)         &trans
 &trans  &kp LSHFT  &kp DOWN_ARROW  &kp LCTRL        &kp PAGE_DOWN  &kp LG(LS(S))         &trans  &kp LEFT_BRACKET  &kp LS(N4)  &kp PRCNT   &kp INTERNATIONAL_3  &trans
 &trans  &trans     &trans          &kp LC(N0)       &kp LC(MINUS)  &kp LC(LS(SEMI))      &trans  &trans                                                         &trans
             >;
@@ -191,7 +191,7 @@
             bindings = <
 &trans             &trans       &trans  &msc SCRL_UP    &trans                                                &trans         &kp F7  &kp F8  &kp F9  &kp F10
 &kp LC(PG_UP)      &kp LC(N1)   &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT    &trans                     &none   &kp BACKSPACE  &kp F4  &kp F5  &kp F6  &kp F11
-&kp LC(PAGE_DOWN)  &kp LS(F11)  &trans  &msc SCRL_DOWN  &trans             &kp F4                     &trans  &trans         &kp F1  &kp F2  &kp F3  &kp F12
+&kp LC(PAGE_DOWN)  &kp LS(F11)  &trans  &msc SCRL_DOWN  &trans             &trans                     &trans  &trans         &kp F1  &kp F2  &kp F3  &kp F12
 &trans             &trans       &trans  &kp LEFT_ALT    &kp LC(LA(MINUS))  &kp LC(LS(LA(MINUS)))      &trans  &trans                                 &trans
             >;
 

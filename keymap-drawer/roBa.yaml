@@ -91,18 +91,18 @@ layers:
   NUM:
   - {t: ▽, type: trans}
   - ''
-  - UP ARROW
-  - DOWN ARROW
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
   - PG UP
   - ;
   - ''''
   - '&'
   - Sft+2
   - '#'
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - LEFT ARROW
-  - RIGHT ARROW
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
   - PAGE DOWN
   - {t: ▽, type: trans}
   - ''
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - DOWN ARROW
-  - Gui+Z
+  - UP ARROW
   - '&mkp MB1'
   - Gui+Sft+S
   - {t: ▽, type: trans}
@@ -136,7 +136,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc SCRL_UP'
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F7
@@ -146,8 +146,8 @@ layers:
   - Ctl+PG UP
   - Ctl+1
   - {type: held}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_RIGHT'
+  - LEFT ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - ''
   - BACKSPACE
@@ -158,7 +158,7 @@ layers:
   - Ctl+PAGE DOWN
   - Sft+F11
   - {t: ▽, type: trans}
-  - '&msc SCRL_DOWN'
+  - DOWN ARROW
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -301,3 +301,5 @@ combos:
   k: '&mkp MB2'
 - p: [39, 13]
   k: LANGUAGE 2
+- p: [2, 3]
+  k: Sft+-

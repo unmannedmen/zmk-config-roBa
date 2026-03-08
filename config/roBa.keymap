@@ -117,6 +117,11 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <39 13>;
         };
+
+        eq2 {
+            bindings = <&kp LS(MINUS)>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
@@ -178,9 +183,9 @@
 
         NUM {
             bindings = <
-&trans  &none   &kp UP_ARROW    &kp DOWN_ARROW   &kp PG_UP                                             &kp SEMI             &kp SQT     &kp AMPS    &kp LS(N2)           &kp HASH
-&none   &none   &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans                &none            &kp BACKSPACE        &kp EXCL    &kp LS(N6)  &kp LS(FSLH)         &trans
-&trans  &none   &kp DOWN_ARROW  &kp LG(Z)        &mkp MB1       &kp LG(LS(S))         &trans           &kp LEFT_BRACKET     &kp LS(N4)  &kp PRCNT   &kp INTERNATIONAL_3  &trans
+&trans  &none   &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp PG_UP                                             &kp SEMI             &kp SQT     &kp AMPS    &kp LS(N2)           &kp HASH
+&trans  &none   &msc SCRL_DOWN  &msc SCRL_UP     &kp PAGE_DOWN  &trans                &none            &kp BACKSPACE        &kp EXCL    &kp LS(N6)  &kp LS(FSLH)         &trans
+&trans  &none   &kp DOWN_ARROW  &kp UP_ARROW     &mkp MB1       &kp LG(LS(S))         &trans           &kp LEFT_BRACKET     &kp LS(N4)  &kp PRCNT   &kp INTERNATIONAL_3  &trans
 &trans  &trans  &trans          &kp LC(N0)       &kp LC(MINUS)  &kp LC(LS(SEMI))      &mt LC(X) LC(C)  &mt LA(LC(V)) LC(V)                                               &trans
             >;
 
@@ -189,9 +194,9 @@
 
         ARROW {
             bindings = <
-&trans             &trans       &trans  &msc SCRL_UP    &trans                                                &trans         &kp F7  &kp F8  &kp F9  &kp F10
-&kp LC(PG_UP)      &kp LC(N1)   &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT    &trans                     &none   &kp BACKSPACE  &kp F4  &kp F5  &kp F6  &kp F11
-&kp LC(PAGE_DOWN)  &kp LS(F11)  &trans  &msc SCRL_DOWN  &mkp MB1           &trans                     &trans  &trans         &kp F1  &kp F2  &kp F3  &kp F12
+&trans             &trans       &trans  &kp UP_ARROW    &trans                                                &trans         &kp F7  &kp F8  &kp F9  &kp F10
+&kp LC(PG_UP)      &kp LC(N1)   &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW    &trans                     &none   &kp BACKSPACE  &kp F4  &kp F5  &kp F6  &kp F11
+&kp LC(PAGE_DOWN)  &kp LS(F11)  &trans  &kp DOWN_ARROW  &mkp MB1           &trans                     &trans  &trans         &kp F1  &kp F2  &kp F3  &kp F12
 &trans             &trans       &trans  &kp LEFT_ALT    &kp LC(LA(MINUS))  &kp LC(LS(LA(MINUS)))      &trans  &trans                                 &trans
             >;
 

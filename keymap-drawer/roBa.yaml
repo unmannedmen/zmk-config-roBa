@@ -91,8 +91,8 @@ layers:
   NUM:
   - {t: ▽, type: trans}
   - ''
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - ''
   - PG UP
   - ;
   - ''''
@@ -101,8 +101,8 @@ layers:
   - '#'
   - {t: ▽, type: trans}
   - {type: held}
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
   - PAGE DOWN
   - {t: ▽, type: trans}
   - ''
@@ -113,8 +113,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - DOWN ARROW
-  - UP ARROW
+  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - Gui+Sft+S
   - {t: ▽, type: trans}
@@ -136,7 +136,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
+  - '&msc SCRL_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F7
@@ -146,8 +146,8 @@ layers:
   - Ctl+PG UP
   - Ctl+1
   - {type: held}
-  - LEFT ARROW
-  - RIGHT ARROW
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
   - {t: ▽, type: trans}
   - ''
   - BACKSPACE
@@ -158,7 +158,7 @@ layers:
   - Ctl+PAGE DOWN
   - Sft+F11
   - {t: ▽, type: trans}
-  - DOWN ARROW
+  - '&msc SCRL_DOWN'
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

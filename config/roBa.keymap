@@ -28,16 +28,6 @@
     combos {
         compatible = "zmk,combos";
 
-        mb1 {
-            bindings = <&mkp MB1>;
-            key-positions = <12 13>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <25 24>;
-        };
-
         plus {
             bindings = <&kp LS(SEMI)>;
             key-positions = <19 20>;
@@ -60,7 +50,7 @@
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <40 19>;
+            key-positions = <40 17>;
         };
 
         undBar {
@@ -78,39 +68,29 @@
             key-positions = <6 7>;
         };
 
-        shifttab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <24 23>;
-        };
-
         kakko {
             bindings = <&kp LS(N8)>;
-            key-positions = <11 13>;
+            key-positions = <11 13 12>;
         };
 
         kakkotoji {
             bindings = <&kp LS(N9)>;
-            key-positions = <18 20>;
+            key-positions = <18 20 19>;
         };
 
         kakkojp {
             bindings = <&kp RBKT>;
-            key-positions = <11 13 12>;
+            key-positions = <11 13>;
         };
 
         kakkotojijp {
             bindings = <&kp BSLH>;
-            key-positions = <18 19 20>;
+            key-positions = <18 20>;
         };
 
         henkan {
             bindings = <&kp INTERNATIONAL_4>;
             key-positions = <38 41>;
-        };
-
-        mb2 {
-            bindings = <&mkp MB2>;
-            key-positions = <11 12>;
         };
 
         lang22 {
@@ -121,6 +101,36 @@
         eq2 {
             bindings = <&kp LS(MINUS)>;
             key-positions = <2 3>;
+        };
+
+        lang12 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <39 14>;
+        };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <25 24>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB1>;
+            key-positions = <24 23>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <12 13>;
+        };
+
+        shifttab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 11>;
+        };
+
+        asta2 {
+            bindings = <&kp LS(SQT)>;
+            key-positions = <1 2>;
         };
     };
 

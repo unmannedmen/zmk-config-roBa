@@ -265,10 +265,6 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
 combos:
-- p: [12, 13]
-  k: '&mkp MB1'
-- p: [25, 24]
-  k: TAB
 - p: [19, 20]
   k: Sft+;
 - p: [7, 8]
@@ -277,7 +273,7 @@ combos:
   k: '-'
 - p: [18, 40]
   k: LANGUAGE 1
-- p: [40, 19]
+- p: [40, 17]
   k: LANGUAGE 2
 - p: [31, 30]
   k: Sft+INTERNATIONAL 1
@@ -285,21 +281,29 @@ combos:
   k: Sft+/
 - p: [6, 7]
   k: Sft+-
-- p: [24, 23]
-  k: Sft+TAB
-- p: [11, 13]
-  k: Sft+8
-- p: [18, 20]
-  k: Sft+9
 - p: [11, 13, 12]
+  k: Sft+8
+- p: [18, 20, 19]
+  k: Sft+9
+- p: [11, 13]
   k: ']'
-- p: [18, 19, 20]
+- p: [18, 20]
   k: \
 - p: [38, 41]
   k: INTERNATIONAL 4
-- p: [11, 12]
-  k: '&mkp MB2'
 - p: [39, 13]
   k: LANGUAGE 2
 - p: [2, 3]
   k: Sft+-
+- p: [39, 14]
+  k: LANGUAGE 1
+- p: [25, 24]
+  k: '&mkp MB1'
+- p: [24, 23]
+  k: '&mkp MB1'
+- p: [12, 13]
+  k: TAB
+- p: [12, 11]
+  k: Sft+TAB
+- p: [1, 2]
+  k: Sft+'

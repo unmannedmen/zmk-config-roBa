@@ -114,7 +114,7 @@
         };
 
         mb2 {
-            bindings = <&mkp MB1>;
+            bindings = <&mkp MB2>;
             key-positions = <24 23>;
         };
 

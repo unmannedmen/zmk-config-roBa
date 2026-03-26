@@ -193,9 +193,9 @@
 
         NUM {
             bindings = <
-&trans  &none   &msc SCRL_UP    &none            &kp PG_UP                                             &kp SEMI             &kp SQT     &kp AMPS    &kp LS(N2)           &kp HASH
-&trans  &none   &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp PAGE_DOWN  &trans                &none            &kp BACKSPACE        &kp EXCL    &kp LS(N6)  &kp LS(FSLH)         &trans
-&trans  &none   &msc SCRL_DOWN  &trans           &mkp MB1       &kp LG(LS(S))         &trans           &kp LEFT_BRACKET     &kp LS(N4)  &kp PRCNT   &kp INTERNATIONAL_3  &trans
+&trans  &none   &kp UP_ARROW    &none            &kp PG_UP                                             &kp SEMI             &kp SQT     &kp AMPS    &kp LS(N2)           &kp HASH
+&trans  &none   &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans                &none            &kp BACKSPACE        &kp EXCL    &kp LS(N6)  &kp LS(FSLH)         &trans
+&trans  &none   &kp DOWN_ARROW  &trans           &mkp MB1       &kp LG(LS(S))         &trans           &kp LEFT_BRACKET     &kp LS(N4)  &kp PRCNT   &kp INTERNATIONAL_3  &trans
 &trans  &trans  &trans          &kp LC(N0)       &kp LC(MINUS)  &kp LC(LS(SEMI))      &mt LC(X) LC(C)  &mt LA(LC(V)) LC(V)                                               &trans
             >;
 

@@ -91,7 +91,7 @@ layers:
   NUM:
   - {t: ▽, type: trans}
   - ''
-  - '&msc SCRL_UP'
+  - UP ARROW
   - ''
   - PG UP
   - ;
@@ -101,8 +101,8 @@ layers:
   - '#'
   - {t: ▽, type: trans}
   - {type: held}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_RIGHT'
+  - LEFT ARROW
+  - RIGHT ARROW
   - PAGE DOWN
   - {t: ▽, type: trans}
   - ''
@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - '&msc SCRL_DOWN'
+  - DOWN ARROW
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - Gui+Sft+S

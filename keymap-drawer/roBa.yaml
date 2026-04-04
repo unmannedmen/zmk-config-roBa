@@ -20,16 +20,16 @@ layers:
   - {t: SCROLL, h: toggle}
   - H
   - J
-  - {t: K, h: SCROLL}
-  - {t: L, h: MOUSE}
+  - K
+  - {t: L, h: SCROLL}
   - {t: ENTER, h: RCTRL}
-  - {t: Z, h: LSHFT}
+  - Z
   - {t: X, h: LSHFT}
   - {t: C, h: APP}
   - {t: V, h: LCTRL}
   - {t: B, h: Ctl+B}
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - '`'
+  - '~'
   - N
   - M
   - {t: ',', h: APP}
@@ -197,7 +197,7 @@ layers:
   - BACKSPACE
   - '&mkp MB1'
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT

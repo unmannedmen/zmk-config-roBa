@@ -23,13 +23,13 @@ layers:
   - K
   - {t: L, h: SCROLL}
   - {t: ENTER, h: RCTRL}
-  - Z
+  - {t: Z, h: LSHFT}
   - {t: X, h: LSHFT}
   - {t: C, h: APP}
-  - {t: V, h: LCTRL}
+  - {t: V, h: Ctl+Alt+V}
   - {t: B, h: Ctl+B}
-  - '`'
-  - '~'
+  - {t: SCROLL, h: toggle}
+  - ''
   - N
   - M
   - {t: ',', h: APP}
@@ -39,7 +39,7 @@ layers:
   - Ctl+Z
   - LEFT GUI
   - '&mkp MB1'
-  - LALT
+  - {t: '`', h: LALT}
   - {t: SPACE, h: FUNCTION}
   - {t: Sft+SPACE, h: LCTRL}
   - {t: TAB, h: RALT}
@@ -71,7 +71,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '&mkp MB1'
+  - ENTER
   - Gui+Sft+S
   - {t: ▽, type: trans}
   - '['
@@ -80,7 +80,7 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Ctl+Alt+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - DOWN ARROW
+  - '['
   - {t: ▽, type: trans}
-  - '&mkp MB1'
   - Gui+Sft+S
   - {t: ▽, type: trans}
   - '['
@@ -134,20 +134,20 @@ layers:
   - {t: ▽, type: trans}
   ARROW:
   - {t: ▽, type: trans}
+  - F4
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&msc SCRL_UP'
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
   - {t: ▽, type: trans}
   - F7
   - F8
   - F9
   - F10
-  - Ctl+PG UP
+  - Alt+ENTER
   - Ctl+1
   - {type: held}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_RIGHT'
+  - LEFT ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - ''
   - BACKSPACE
@@ -155,11 +155,11 @@ layers:
   - F5
   - F6
   - F11
-  - Ctl+PAGE DOWN
+  - Gui+Ctl+Alt+V
   - Sft+F11
   - {t: ▽, type: trans}
-  - '&msc SCRL_DOWN'
-  - '&mkp MB1'
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
+  - TAB
   - Ctl+Alt+-
   - Meh+-
   - {t: ▽, type: trans}
@@ -222,39 +222,39 @@ layers:
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ESC
   - KP 7
   - KP 8
   - KP 9
-  - KP 0
+  - KP DOT
+  - ESC
+  - '7'
+  - '8'
+  - '9'
+  - .
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - {t: ENTER, type: held}
-  - ''
-  - {t: default, h: toggle}
-  - BACKSPACE
   - KP 4
   - KP 5
   - KP 6
-  - {t: ENTER, h: RCTRL}
-  - KP DOT
-  - '1'
-  - '2'
-  - '3'
-  - '&mkp MB1'
+  - {t: KP 0, type: held}
+  - ''
+  - {t: default, h: toggle}
+  - BACKSPACE
+  - '4'
+  - '5'
+  - '6'
+  - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP DOT
   - KP 1
   - KP 2
   - KP 3
+  - ENTER
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -281,13 +281,13 @@ combos:
   k: Sft+/
 - p: [6, 7]
   k: Sft+-
-- p: [11, 13, 12]
-  k: Sft+8
-- p: [18, 20, 19]
-  k: Sft+9
 - p: [11, 13]
-  k: ']'
+  k: Sft+8
 - p: [18, 20]
+  k: Sft+9
+- p: [11, 13, 12]
+  k: ']'
+- p: [18, 20, 19]
   k: \
 - p: [38, 41]
   k: INTERNATIONAL 4
@@ -307,3 +307,13 @@ combos:
   k: Sft+TAB
 - p: [1, 2]
   k: Sft+'
+- p: [25, 23]
+  k: Sft+9
+- p: [23, 24, 25]
+  k: \
+- p: [12, 13, 39]
+  k: '-'
+- p: [11, 12, 39]
+  k: Sft+;
+- p: [39, 22]
+  k: /

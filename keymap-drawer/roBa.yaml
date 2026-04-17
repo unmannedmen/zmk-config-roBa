@@ -24,9 +24,9 @@ layers:
   - {t: L, h: SCROLL}
   - {t: ENTER, h: RCTRL}
   - {t: Z, h: LSHFT}
-  - {t: X, h: LSHFT}
+  - {t: X, h: Alt+9}
   - {t: C, h: APP}
-  - {t: V, h: Ctl+Alt+V}
+  - {t: V, h: Ctl+B}
   - {t: B, h: Ctl+B}
   - {t: SCROLL, h: toggle}
   - '`'
@@ -37,8 +37,8 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - ESCAPE
   - Ctl+Z
-  - LEFT GUI
-  - '&mkp MB1'
+  - BACKSPACE
+  - {t: ENTER, h: LEFT GUI}
   - {t: '`', h: LALT}
   - {t: SPACE, h: FUNCTION}
   - {t: Sft+SPACE, h: LCTRL}
@@ -79,7 +79,7 @@ layers:
   - F2
   - F10
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - Gui+Ctl+Alt+V
   - ','
   - {t: ▽, type: trans}
@@ -106,7 +106,7 @@ layers:
   - Alt+3
   - {t: ▽, type: trans}
   - ''
-  - BACKSPACE
+  - Sft+BACKSPACE
   - '!'
   - Sft+6
   - Sft+/
@@ -150,7 +150,7 @@ layers:
   - Alt+3
   - {t: ▽, type: trans}
   - ''
-  - BACKSPACE
+  - Sft+BACKSPACE
   - F4
   - F5
   - F6
@@ -160,14 +160,14 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+PAGE DOWN
   - Alt+5
-  - ^
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F12
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F4

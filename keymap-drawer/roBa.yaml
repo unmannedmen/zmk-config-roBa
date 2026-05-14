@@ -11,25 +11,25 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
+  - A
   - {t: S, h: NUM}
   - {t: D, h: ARROW}
   - F
-  - {t: G, h: SCROLL}
+  - G
   - Gui+PP
-  - ''
+  - {t: SCROLL, h: toggle}
   - H
   - J
   - K
   - {t: L, h: SCROLL}
   - {t: ENTER, h: RCTRL}
-  - {t: Z, h: LSHFT}
-  - {t: X, h: Alt+9}
+  - {t: Z, h: LCTRL}
+  - {t: X, h: LSHFT}
   - {t: C, h: APP}
   - {t: V, h: Ctl+B}
   - {t: B, h: Ctl+B}
-  - {t: SCROLL, h: toggle}
-  - '`'
+  - Sft+BACKSPACE
+  - INTERNATIONAL 4
   - N
   - M
   - {t: ',', h: APP}
@@ -37,9 +37,9 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - ESCAPE
   - Ctl+Z
-  - BACKSPACE
+  - DELETE
   - {t: ENTER, h: LEFT GUI}
-  - {t: '`', h: LALT}
+  - LALT
   - {t: SPACE, h: FUNCTION}
   - {t: Sft+SPACE, h: LCTRL}
   - {t: TAB, h: RALT}
@@ -235,13 +235,13 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - {t: KP 0, type: held}
+  - KP 0
   - ''
   - {t: default, h: toggle}
   - BACKSPACE
   - '4'
   - '5'
-  - '6'
+  - {t: '6', type: held}
   - '0'
   - {t: ▽, type: trans}
   - KP 1
@@ -295,7 +295,7 @@ combos:
   k: LANGUAGE 2
 - p: [2, 3]
   k: Sft+-
-- p: [39, 12]
+- p: [39, 14]
   k: LANG1
 - p: [25, 24]
   k: '-'

@@ -105,7 +105,7 @@
 
         lang13 {
             bindings = <&kp LANG1>;
-            key-positions = <39 14>;
+            key-positions = <39 12>;
         };
 
         minuslefg {
@@ -187,7 +187,7 @@
         default_layer {
             bindings = <
 &kp Q        &kp W        &kp E        &kp R               &kp T                                                    &kp Y         &kp U  &kp I            &kp O       &kp P
-&kp A        &lt 2 S      &lt 3 D      &kp F               &kp G        &kp LG(C_PP)           &to 5                &kp H         &kp J  &kp K            &lt 5 L     &mt RCTRL ENTER
+&kp A        &lt 2 S      &lt 3 D      &mt GRAVE F         &kp G        &kp LG(C_PP)           &to 5                &kp H         &kp J  &kp K            &lt 5 L     &mt RCTRL ENTER
 &mt LCTRL Z  &mt LSHFT X  &mt K_APP C  &mt LC(B) V         &mt LC(B) B  &kp LS(BACKSPACE)      &kp INTERNATIONAL_4  &kp N         &kp M  &mt K_APP COMMA  &kp PERIOD  &mt RIGHT_SHIFT FSLH
 &kp ESCAPE   &kp LC(Z)    &kp DELETE   &mt LEFT_GUI ENTER  &kp LALT     &lt 1 SPACE            &mt LCTRL LS(SPACE)  &mt RALT TAB                                      &kp BACKSPACE
             >;

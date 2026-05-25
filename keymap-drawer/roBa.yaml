@@ -14,7 +14,7 @@ layers:
   - A
   - {t: S, h: NUM}
   - {t: D, h: ARROW}
-  - F
+  - {t: F, h: '`'}
   - G
   - Gui+PP
   - {t: SCROLL, h: toggle}
@@ -295,7 +295,7 @@ combos:
   k: LANGUAGE 2
 - p: [2, 3]
   k: Sft+-
-- p: [39, 14]
+- p: [39, 12]
   k: LANG1
 - p: [25, 24]
   k: '-'

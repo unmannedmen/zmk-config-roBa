@@ -14,7 +14,7 @@ layers:
   - A
   - {t: S, h: NUM}
   - {t: D, h: ARROW}
-  - {t: F, h: '`'}
+  - {t: F, h: LANGUAGE 1}
   - G
   - Gui+PP
   - {t: SCROLL, h: toggle}
@@ -28,7 +28,7 @@ layers:
   - {t: C, h: APP}
   - {t: V, h: Ctl+B}
   - {t: B, h: Ctl+B}
-  - Sft+BACKSPACE
+  - INTERNATIONAL 4
   - INTERNATIONAL 4
   - N
   - M
@@ -79,14 +79,14 @@ layers:
   - F2
   - F10
   - {t: ▽, type: trans}
-  - ENTER
   - Gui+Ctl+Alt+V
+  - {t: ▽, type: trans}
   - ','
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - LEFT ALT
-  - LEFT GUI
+  - LCTRL
+  - LSHFT
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}

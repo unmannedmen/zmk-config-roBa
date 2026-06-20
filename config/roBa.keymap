@@ -70,22 +70,22 @@
 
         kakko {
             bindings = <&kp LS(N8)>;
-            key-positions = <11 13 12>;
+            key-positions = <11 13>;
         };
 
         kakkotoji {
             bindings = <&kp LS(N9)>;
-            key-positions = <18 20 19>;
+            key-positions = <18 20>;
         };
 
         kakkojp {
             bindings = <&kp RBKT>;
-            key-positions = <11 13>;
+            key-positions = <11 13 12>;
         };
 
         kakkotojijp {
             bindings = <&kp BSLH>;
-            key-positions = <18 20>;
+            key-positions = <18 20 19>;
         };
 
         henkan {
@@ -135,12 +135,12 @@
 
         kakkotoji2 {
             bindings = <&kp LS(N9)>;
-            key-positions = <25 23 24>;
+            key-positions = <25 23>;
         };
 
         kakkotojijp2 {
             bindings = <&kp BSLH>;
-            key-positions = <23 25>;
+            key-positions = <23 25 24>;
         };
 
         fwslash {
@@ -186,10 +186,10 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp W        &kp E        &kp R               &kp T                                                      &kp Y         &kp U  &kp I            &kp O       &kp P
-&kp A        &lt 2 S      &lt 3 D      &mt LANGUAGE_1 F    &kp G        &kp LG(C_PP)             &to 5                &kp H         &kp J  &kp K            &lt 5 L     &mt RCTRL ENTER
-&mt LCTRL Z  &mt LSHFT X  &mt K_APP C  &mt LC(B) V         &mt LC(B) B  &kp INTERNATIONAL_4      &kp INTERNATIONAL_4  &kp N         &kp M  &mt K_APP COMMA  &kp PERIOD  &mt RIGHT_SHIFT FSLH
-&kp ESCAPE   &kp LC(Z)    &kp DELETE   &mt LEFT_GUI ENTER  &kp LALT     &lt 1 SPACE              &mt LCTRL LS(SPACE)  &mt RALT TAB                                      &kp BACKSPACE
+&kp Q        &kp W        &kp E         &kp R             &kp T                                               &kp Y         &kp U  &kp I            &kp O       &kp P
+&kp A        &lt 2 S      &lt 3 D       &mt LANGUAGE_1 F  &kp G        &kp LG(C_PP)      &to 5                &kp H         &kp J  &kp K            &lt 5 L     &mt RCTRL ENTER
+&mt LCTRL Z  &mt LSHFT X  &mt K_APP C   &mt LC(B) V       &mt LC(B) B  &kp DEL           &kp INTERNATIONAL_4  &kp N         &kp M  &mt K_APP COMMA  &kp PERIOD  &mt RIGHT_SHIFT FSLH
+&kp ESCAPE   &kp LC(Z)    &kp LEFT_GUI  &kp LALT          &kp LSHFT    &lt 1 SPACE       &mt LCTRL LS(SPACE)  &mt RALT TAB                                      &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -197,10 +197,10 @@
 
         FUNCTION {
             bindings = <
-&kp LC(X)          &kp N7  &kp N8     &kp N9  &kp DOT                                  &kp ESCAPE        &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
-&mt LCTRL LC(C)    &kp N4  &kp N5     &kp N6  &kp N0     &none              &none      &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&mt LSHFT LC(V)    &kp N1  &kp N2     &kp N3  &kp ENTER  &kp LG(LS(S))      &trans     &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
-&kp LG(LC(LA(V)))  &trans  &kp COMMA  &trans  &trans     &trans             &kp LCTRL  &kp LSHFT                                                          &trans
+&mt GRAVE Q      &kp N7             &kp N8     &kp N9  &kp DOT                                  &kp ESCAPE        &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
+&mt LCTRL LC(X)  &kp N4             &kp N5     &kp N6  &kp N0     &none              &none      &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&mt LSHFT LC(C)  &kp N1             &kp N2     &kp N3  &kp ENTER  &kp LG(LS(S))      &trans     &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
+&kp LC(V)        &kp LG(LC(LA(V)))  &kp COMMA  &trans  &trans     &trans             &kp LCTRL  &kp LSHFT                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;

@@ -28,7 +28,7 @@ layers:
   - {t: C, h: APP}
   - {t: V, h: Ctl+B}
   - {t: B, h: Ctl+B}
-  - INTERNATIONAL 4
+  - DEL
   - INTERNATIONAL 4
   - N
   - M
@@ -37,15 +37,15 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - ESCAPE
   - Ctl+Z
-  - DELETE
-  - {t: ENTER, h: LEFT GUI}
+  - LEFT GUI
   - LALT
+  - LSHFT
   - {t: SPACE, h: FUNCTION}
   - {t: Sft+SPACE, h: LCTRL}
   - {t: TAB, h: RALT}
   - BACKSPACE
   FUNCTION:
-  - Ctl+X
+  - {t: Q, h: '`'}
   - '7'
   - '8'
   - '9'
@@ -55,7 +55,7 @@ layers:
   - UP ARROW
   - END
   - DELETE
-  - {t: Ctl+C, h: LCTRL}
+  - {t: Ctl+X, h: LCTRL}
   - '4'
   - '5'
   - '6'
@@ -67,7 +67,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: Ctl+V, h: LSHFT}
+  - {t: Ctl+C, h: LSHFT}
   - '1'
   - '2'
   - '3'
@@ -79,8 +79,8 @@ layers:
   - F2
   - F10
   - {t: ▽, type: trans}
+  - Ctl+V
   - Gui+Ctl+Alt+V
-  - {t: ▽, type: trans}
   - ','
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -281,13 +281,13 @@ combos:
   k: Sft+/
 - p: [6, 7]
   k: Sft+-
-- p: [11, 13, 12]
-  k: Sft+8
-- p: [18, 20, 19]
-  k: Sft+9
 - p: [11, 13]
-  k: ']'
+  k: Sft+8
 - p: [18, 20]
+  k: Sft+9
+- p: [11, 13, 12]
+  k: ']'
+- p: [18, 20, 19]
   k: \
 - p: [38, 41]
   k: INTERNATIONAL 4
@@ -307,9 +307,9 @@ combos:
   k: '&mkp MB1'
 - p: [1, 2]
   k: Sft+'
-- p: [25, 23, 24]
+- p: [25, 23]
   k: Sft+9
-- p: [23, 25]
+- p: [23, 25, 24]
   k: \
 - p: [39, 22]
   k: /

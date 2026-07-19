@@ -94,7 +94,7 @@
         };
 
         lang23 {
-            bindings = <&kp LANGUAGE_2>;
+            bindings = <&kp GRAVE>;
             key-positions = <39 13>;
         };
 

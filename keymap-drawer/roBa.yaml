@@ -292,7 +292,7 @@ combos:
 - p: [38, 41]
   k: INTERNATIONAL 4
 - p: [39, 13]
-  k: LANGUAGE 2
+  k: '`'
 - p: [2, 3]
   k: Sft+-
 - p: [39, 12]

@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: MOUSE}
   - {t: S, h: NUM}
   - {t: D, h: ARROW}
   - {t: F, h: LANGUAGE 1}
@@ -160,7 +160,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+PAGE DOWN
   - Alt+5
-  - ''
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
@@ -178,20 +178,20 @@ layers:
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
   - UP ARROW
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+LEFT ARROW
+  - {type: held}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Alt+RIGHT ARROW
+  - Sft+BACKSPACE
   - {t: ▽, type: trans}
   - ''
   - BACKSPACE
@@ -200,9 +200,9 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHFT
+  - '&msc MOVE_X(-10)'
   - LALT
-  - LCTRL
+  - '&msc MOVE_X(10)'
   - '&alt_D_Enter'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -214,7 +214,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB1'
   - Ctl+Sft+TAB

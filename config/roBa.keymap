@@ -45,12 +45,12 @@
 
         lang1 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <18 40>;
+            key-positions = <40 19>;
         };
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <40 17>;
+            key-positions = <40 18>;
         };
 
         undBar {
@@ -70,22 +70,22 @@
 
         kakko {
             bindings = <&kp LS(N8)>;
-            key-positions = <11 13>;
+            key-positions = <11 13 12>;
         };
 
         kakkotoji {
             bindings = <&kp LS(N9)>;
-            key-positions = <18 20>;
+            key-positions = <18 20 19>;
         };
 
         kakkojp {
             bindings = <&kp RBKT>;
-            key-positions = <11 13 12>;
+            key-positions = <11 13>;
         };
 
         kakkotojijp {
             bindings = <&kp BSLH>;
-            key-positions = <18 20 19>;
+            key-positions = <18 20>;
         };
 
         henkan {
@@ -94,7 +94,7 @@
         };
 
         lang23 {
-            bindings = <&kp GRAVE>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <39 13>;
         };
 
@@ -186,10 +186,10 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp W        &kp E         &kp R             &kp T                                               &kp Y         &kp U  &kp I            &kp O       &kp P
-&lt 4 A      &lt 2 S      &lt 3 D       &mt LANGUAGE_1 F  &kp G        &kp LG(C_PP)      &to 5                &kp H         &kp J  &kp K            &lt 5 L     &mt RCTRL ENTER
-&mt LCTRL Z  &mt LSHFT X  &mt K_APP C   &mt LC(B) V       &mt LC(B) B  &kp DEL           &kp INTERNATIONAL_4  &kp N         &kp M  &mt K_APP COMMA  &kp PERIOD  &mt RIGHT_SHIFT FSLH
-&kp ESCAPE   &kp LC(Z)    &kp LEFT_GUI  &kp LALT          &kp LSHFT    &lt 1 SPACE       &mt LCTRL LS(SPACE)  &mt RALT TAB                                      &kp BACKSPACE
+&kp Q        &kp W        &kp E         &kp R        &kp T                                             &kp Y         &kp U  &kp I            &kp O       &kp P
+&lt 4 A      &lt 2 S      &lt 3 D       &kp F        &kp G      &kp LG(C_PP)      &to 5                &kp H         &kp J  &kp K            &lt 5 L     &mt RCTRL ENTER
+&mt LCTRL Z  &mt LSHFT X  &mt K_APP C   &mt LC(B) V  &kp B      &kp DEL           &kp INTERNATIONAL_4  &kp N         &kp M  &mt K_APP COMMA  &kp PERIOD  &mt RIGHT_SHIFT FSLH
+&kp ESCAPE   &kp LC(Z)    &kp LEFT_GUI  &kp LALT     &kp LSHFT  &lt 1 SPACE       &mt LCTRL LS(SPACE)  &mt RALT TAB                                      &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -197,10 +197,10 @@
 
         FUNCTION {
             bindings = <
-&mt GRAVE Q      &kp N7             &kp N8     &kp N9  &kp DOT                                  &kp ESCAPE        &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
-&mt LCTRL LC(X)  &kp N4             &kp N5     &kp N6  &kp N0     &none              &none      &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&mt LSHFT LC(C)  &kp N1             &kp N2     &kp N3  &kp ENTER  &kp LG(LS(S))      &trans     &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
-&kp LC(V)        &kp LG(LC(LA(V)))  &kp COMMA  &trans  &trans     &trans             &kp LCTRL  &kp LSHFT                                                          &trans
+&mt GRAVE Q      &kp N7             &kp N8     &kp N9  &kp NUMBER_0                                &kp ESCAPE        &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
+&mt LCTRL LC(X)  &kp N4             &kp N5     &kp N6  &kp DOT       &none              &none      &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&mt LSHFT LC(C)  &kp N1             &kp N2     &kp N3  &kp COMMA     &kp LG(LS(S))      &trans     &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
+&kp LC(V)        &kp LG(LC(LA(V)))  &kp ENTER  &trans  &trans        &trans             &kp LCTRL  &kp LSHFT                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;

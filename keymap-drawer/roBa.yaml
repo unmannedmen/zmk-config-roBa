@@ -11,9 +11,9 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: MOUSE}
-  - {t: S, h: NUM}
-  - {t: D, h: ARROW}
+  - A
+  - S
+  - {t: D, h: NUM}
   - F
   - G
   - Gui+PP
@@ -25,11 +25,11 @@ layers:
   - {t: ENTER, h: RCTRL}
   - {t: Z, h: LCTRL}
   - {t: X, h: LSHFT}
-  - {t: C, h: APP}
+  - {t: C, h: ARROW}
   - {t: V, h: Ctl+B}
   - B
   - DEL
-  - INTERNATIONAL 4
+  - BACKSPACE
   - N
   - M
   - {t: ',', h: APP}
@@ -41,7 +41,7 @@ layers:
   - LALT
   - LSHFT
   - {t: SPACE, h: FUNCTION}
-  - {t: Sft+SPACE, h: LCTRL}
+  - {t: Sft+SPACE, h: LSHFT}
   - {t: TAB, h: RALT}
   - BACKSPACE
   FUNCTION:
@@ -99,9 +99,9 @@ layers:
   - '&'
   - Sft+2
   - '#'
-  - Sft+2
-  - {type: held}
-  - LEFT ARROW
+  - {t: ▽, type: trans}
+  - ''
+  - {t: LEFT ARROW, type: held}
   - RIGHT ARROW
   - Alt+3
   - {t: ▽, type: trans}
@@ -111,7 +111,7 @@ layers:
   - Sft+6
   - Sft+/
   - {t: ▽, type: trans}
-  - ','
+  - {t: ▽, type: trans}
   - ''
   - DOWN ARROW
   - '['
@@ -145,7 +145,7 @@ layers:
   - F10
   - F2
   - '&msc SCRL_LEFT'
-  - {type: held}
+  - {t: ▽, type: trans}
   - '&msc SCRL_RIGHT'
   - Alt+3
   - {t: ▽, type: trans}
@@ -157,7 +157,7 @@ layers:
   - F11
   - Alt+ENTER
   - Ctl+PG UP
-  - {t: ▽, type: trans}
+  - {type: held}
   - Ctl+PAGE DOWN
   - Alt+5
   - '&mkp MB3'
@@ -187,7 +187,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW

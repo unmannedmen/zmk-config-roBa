@@ -49,7 +49,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
+  - DEL
   - ESCAPE
   - HOME
   - UP ARROW
@@ -59,7 +59,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - .
+  - BACKSPACE
   - ''
   - ''
   - BACKSPACE
@@ -71,7 +71,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - ','
+  - ENTER
   - Gui+Sft+S
   - {t: ▽, type: trans}
   - '['
@@ -80,8 +80,8 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - Ctl+V
-  - Gui+Ctl+Alt+V
-  - ENTER
+  - KP 0
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}

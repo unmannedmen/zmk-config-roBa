@@ -149,7 +149,7 @@
         };
 
         langgg {
-            bindings = <&kp LANG1>;
+            bindings = <&kp GRAVE>;
             key-positions = <39 13>;
         };
     };

@@ -45,7 +45,7 @@ layers:
   - {t: TAB, h: RALT}
   - BACKSPACE
   FUNCTION:
-  - {t: Q, h: '`'}
+  - '`'
   - '7'
   - '8'
   - '9'
@@ -59,7 +59,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - BACKSPACE
+  - '0'
   - ''
   - ''
   - BACKSPACE
@@ -80,7 +80,7 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - Ctl+V
-  - KP 0
+  - '0'
   - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -291,7 +291,7 @@ combos:
   k: \
 - p: [38, 41]
   k: INTERNATIONAL 4
-- p: [39, 13]
+- p: [39, 14]
   k: LANGUAGE 2
 - p: [2, 3]
   k: Sft+-
@@ -313,3 +313,5 @@ combos:
   k: \
 - p: [39, 22]
   k: /
+- p: [39, 13]
+  k: LANG1

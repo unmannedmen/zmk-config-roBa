@@ -95,7 +95,7 @@
 
         lang23 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <39 13>;
+            key-positions = <39 14>;
         };
 
         eq2 {
@@ -147,6 +147,11 @@
             bindings = <&kp FSLH>;
             key-positions = <39 22>;
         };
+
+        langgg {
+            bindings = <&kp LANG1>;
+            key-positions = <39 13>;
+        };
     };
 
     macros {
@@ -197,10 +202,10 @@
 
         FUNCTION {
             bindings = <
-&mt GRAVE Q      &kp N7           &kp N8   &kp N9  &kp DEL                                      &kp ESCAPE        &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
-&mt LCTRL LC(X)  &kp N4           &kp N5   &kp N6  &kp BACKSPACE  &none              &none      &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&mt LSHFT LC(C)  &kp N1           &kp N2   &kp N3  &kp ENTER      &kp LG(LS(S))      &trans     &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
-&kp LC(V)        &kp KP_NUMBER_0  &kp DOT  &trans  &trans         &trans             &kp LCTRL  &kp LSHFT                                                          &trans
+&kp GRAVE        &kp N7  &kp N8   &kp N9  &kp DEL                                     &kp ESCAPE        &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
+&mt LCTRL LC(X)  &kp N4  &kp N5   &kp N6  &kp NUMBER_0  &none              &none      &kp BACKSPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&mt LSHFT LC(C)  &kp N1  &kp N2   &kp N3  &kp ENTER     &kp LG(LS(S))      &trans     &kp LEFT_BRACKET  &kp F7          &kp F2          &kp F10          &trans
+&kp LC(V)        &kp N0  &kp DOT  &trans  &trans        &trans             &kp LCTRL  &kp LSHFT                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
